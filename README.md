@@ -15,3 +15,4 @@ No Logging or Monitoring Configured yet
 # CHALLENGES
 Used std. Actions Workflow to accompany the needs of the challenge -> locally using {name}.dockerfile created some confusion on my side since the std. workflow checks for Dockerfile (without extensions)
 ECS Service not configured after task and cluster was defined.
+Fargate Challenged me since I wanted to create an elastic ip config after deploy. This is not directly possible so I created a loadbalance instead
